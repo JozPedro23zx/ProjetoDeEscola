@@ -30,7 +30,7 @@ require('index.php');
 
 }
 else{
-    $_SESSION['msg'] = "<p style='font-size: 22px'><b>As senhas estão erradas, tente novamente.</b></p>";
+    $_SESSION['msg'] = "<p style='font-size: 22px; color: #F5B7B1'><b>As senhas estão erradas, tente novamente.</b></p>";
     require('cadastro.php');
 }
 

@@ -3,10 +3,10 @@
  <ul>
    <li><a class="btn btn-outline-danger btn-lg" href="../Home">HOME</a></li> 
    <li><a class="btn btn-outline-danger btn-lg" href="../Ofertas">OFERTAS</a></li>
-   <li><a class="btn btn-outline-danger btn-lg" href="acessorios.php">ACESSÓRIOS</a></li>
+   <li><a class="btn btn-outline-danger btn-lg" href="../Acessorios">ACESSÓRIOS</a></li>
    <li><a class="btn btn-outline-danger btn-lg" href="../Empresa">EMPRESAS</a></li>
-   <li><a class="btn btn-outline-danger btn-lg" href="servicos.php">SERVIÇO</a></li>
-   <li><a class="btn btn-outline-danger btn-lg" href="vendasdiretas.php">VENDAS DIRETAS</a></li>
+   <li><a class="btn btn-outline-danger btn-lg" href="../Servicos">SERVIÇO</a></li>
+   <li><a class="btn btn-outline-danger btn-lg" href="../Vendas_diretas">VENDAS DIRETAS</a></li>
   <div>
    <?php 
       if(isset ($_SESSION['NomeDoUsuario'])){

@@ -21,10 +21,10 @@ if($_POST['email'] != null && $_POST['senha'] != null)
     $query = mysqli_query($conexao, $sql) or die("Erro ao cadastrar");
     $resultado = mysqli_fetch_assoc($query);
 
-    $nome = $resultado['nome'];
-    $_SESSION['NomeDoUsuario'] = $nome;
     
     if(!empty($resultado)) {
+        $nome = $resultado['nome'];
+        $_SESSION['NomeDoUsuario'] = $nome;
         header("Location: ../Home/index.php");
     } else {
         $_SESSION['msgErro'] = "Os dados estão incorretos";
