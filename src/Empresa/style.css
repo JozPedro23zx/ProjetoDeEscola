@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    height: 140%;
+}
+
+body{
+    background: linear-gradient(to bottom, #660033 33%, #d11a28 85%);
+    background-color: #e5e5e5;
+    font-family: 'Trebuchet MS', 'Arial', 'sans-serif';
+}
+
+#container{
+    background-color: #fff;
+    width: 84%;
+    margin: 0px auto;
+}
+
+img#logo{
+    float: left;
+    width: 90px; 
+    height: 90px;
+    padding: 5px 0 0 5px;
+}
+
+#tela-principal{
+    padding-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#falar{
+    border: solid 1px;
+    float: right;
+    position: relative;
+    padding-left: 8px;
+    color: white;
+    background: linear-gradient(to right, #000000 35%, #660033 100%);
+    border-radius: 10px;
+    width: 24%;
+}
+
+#falar h3{
+    padding-top: 5px;
+}
+
+input{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding-left: 2px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+
+}
+
+textarea{
+    padding-top: 5px;
+    margin-top: 8px;
+}
+
+input.enviar{
+    color: white;
+    width: 90%;
+    height: 40px;
+    margin-bottom: 5px;
+    background-color: #d11a28;
+    border: 1px solid #c41924;
+}
+
+ul{
+    list-style: none;
+    margin-left: 122px;
+}
+
+li{
+    float: left;
+    padding: 0px 5px;
+    margin-top: 30px;   
+    font-size: 1.15em;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover{
+    color: red;
+}
+
+#tela-principal{
+    clear: both;
+}
+
+a#botao{   
+    margin-left: 25px;
+    width: 120px;
+}
+
+ 
+.sobre{
+    color: #B3B6B7;
+}

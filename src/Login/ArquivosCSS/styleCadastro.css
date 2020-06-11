@@ -1,0 +1,37 @@
+body{
+    font-family: 'Trebuchet MS', 'Arial', 'sans-serif'; 
+    background: linear-gradient(to left, #660033 52%, #d11a28 100%);
+}
+
+#principal{
+    background: linear-gradient(to right, #660033 52%, #d11a28 100%);
+    border-radius: 10px;
+    width: 340px;
+    height: 100%;
+    margin: 120px auto;
+    text-align: center;
+    color: white;
+}
+
+input{
+    width: 62%;
+    height: 40px;
+    margin-top: 30px;
+    font-size: 19px;
+    padding-left: 10px;
+}
+
+input.nome{
+    margin-top: 38px;
+}
+
+input.enviar{
+    margin-bottom: 15px;
+    color: white;
+    background-color: #d11a28;
+    border: 1px solid #c41924;
+}
+
+a{
+    color: white;
+}

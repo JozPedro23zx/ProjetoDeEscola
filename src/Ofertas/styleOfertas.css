@@ -1,0 +1,35 @@
+html{
+    height: 100%;
+}
+
+#titulo{
+    clear: both;
+    background-color: #d11827;
+    padding-bottom: 13px;
+    padding-top: 20px;
+    padding-left: 22px;
+    color: white;
+}
+
+#titulo h1{
+    font-size: 25px;
+}
+
+.oferta{
+    float: left;
+    text-align: center;
+    font-size: 23px;
+    margin-left: 48px;
+}
+
+.oferta a{
+    color: black;
+}
+
+.oferta a:hover{
+    color: red;
+}
+
+#CarrosOfertas{
+    clear: both;
+}
